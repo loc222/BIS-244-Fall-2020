@@ -77,6 +77,7 @@ url <- "https://cdn.rawgit.com/kjhealy/viz-organdata/master/organdonation.csv"
  
 organs <- read.csv(file = url)
 
+#Provides comments of how the file was process (part of tidyverse)
 organs <- read_csv(file = "dataviz_course_notes/data/organdonation.csv")
 
 organs
